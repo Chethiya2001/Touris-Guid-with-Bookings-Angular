@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './contactus.html',
   styleUrl: './contactus.css'
 })
-export class Contactus {
+export class ContactusComponent {
 
 }

@@ -1,8 +1,8 @@
 import { Routes } from '@angular/router';
 import { Home } from './home/home';
-import { Contactus } from './home/contactus/contactus';
-import { Booking } from './home/booking/booking';
-import { News } from './home/news/news';
+import { ContactusComponent } from './contactus/contactus';
+import { BookingComponent } from './booking/booking';
+import { NewsCompoent } from './news/news';
 
 export const routes: Routes = [
   {
@@ -12,16 +12,16 @@ export const routes: Routes = [
   },
   {
     path: 'contact',
-    component: Contactus,
+    component: ContactusComponent,
     title: 'Contact Us',
   },
   {
     path: 'booking',
-    component: Booking,
+    component: BookingComponent,
     title: 'Booking',
   },{
     path:'news',
-    component:News,
+    component:NewsCompoent,
     title:"News & Blogs"
   }
 ];
