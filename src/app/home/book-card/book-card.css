@@ -1,0 +1,40 @@
+.amazing {
+  background: url('/images/card/Amazing.jpg'); 
+  padding: 90px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 400px; /* add a minimum height to ensure visibility */
+}
+.amazing .amazing-box {
+     text-align: center;
+}
+.amazing .amazing-box h2 {
+     padding: 0px 0px 20px 0px;
+     font-size: 45px;
+     font-weight: bold;
+     color: #fff;
+     line-height: 50px;
+     text-transform: uppercase;
+}
+.amazing .amazing-box span {
+     color: #fff;
+     font-size: 17px;
+     line-height: 32px;
+     display: inline-block;
+     margin-bottom: 35px;
+}
+.amazing .amazing-box a {
+     font-size: 17px;
+     padding: 15px 50px;
+     background-color: #ee580f;
+     color: #fff;
+     display: inline-block;
+     line-height: 20px;
+     border-radius: 30px;
+     text-align: center;
+     margin: 0 10px;
+}
+.amazing .amazing-box a:hover {
+     background: #15cfe5;
+}

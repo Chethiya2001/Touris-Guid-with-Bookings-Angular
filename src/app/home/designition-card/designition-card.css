@@ -1,0 +1,8 @@
+.destination img {
+    transition: transform 0.5s ease;
+}
+
+.destination img:hover {
+    transform: scale(0.9);
+    
+}
