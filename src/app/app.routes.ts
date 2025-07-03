@@ -3,6 +3,8 @@ import { Home } from './home/home';
 import { ContactusComponent } from './contactus/contactus';
 import { BookingComponent } from './booking/booking';
 import { NewsCompoent } from './news/news';
+import {  ProfileComponent } from './profile/profile';
+import { AuthComponent } from './auth/auth';
 
 export const routes: Routes = [
   {
@@ -23,5 +25,15 @@ export const routes: Routes = [
     path:'news',
     component:NewsCompoent,
     title:"News & Blogs"
+  },
+  {
+    path:'profile',
+    component:ProfileComponent,
+    title:"Profile"
+  },{
+    path:"login",
+    component: AuthComponent,
+
+    title:"Login"
   }
 ];
